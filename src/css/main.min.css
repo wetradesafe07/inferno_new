@@ -1150,7 +1150,7 @@ header {
     width: 100%;
 }
 
-header h1 {
+} header h1 {
     color: #efefef;
     text-shadow: 0 0 5px #111;
 }
