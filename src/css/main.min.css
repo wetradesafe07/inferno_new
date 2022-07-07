@@ -11,6 +11,11 @@
     font: inherit;
     vertical-align: baseline;
 }
+
+a:hover {
+    color: rgb(209, 10, 10);
+  }
+  
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -103,6 +108,7 @@ header {
     .container {
         white-space: normal;
 
+    
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -1136,6 +1142,9 @@ header {
 #ext_btn {
     display: none;
 }
+a#zerk:hover{
+    color: red;
+}
 @media (max-width:37.5em) {
     header {
     height: 70vh;
@@ -1292,7 +1301,7 @@ header a.btn {
     margin: 0;
 }
 .nav-links {
-    margin-left: 40px;
+    margin-left: 15px;
 }
 .logo {
     margin-top: 0;
