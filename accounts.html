@@ -6,7 +6,7 @@
 
 <head>
     <!-- Page Title -->
-    <title>The Infernal Service - #1 Fast, Secure, Cheap Inferno Service</title>
+    <title>Accounts - The Infernal Service - #1 Fast, Secure, Cheap Inferno Service</title>
     <!-- SEO -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -143,6 +143,8 @@
         <div class="container" width="95vw">
             <div class="row">
                 <div class="col-lg-12 wow fadeInUp">
+                    <h1>Buying Accounts</h1>
+                    <br><br>
                     <h2>We have 5 different account types for sale</h2>
                     <p>Quick-jump to your desired section below or scroll down to view our account collection.</p>
                     <br>
@@ -174,13 +176,57 @@
         </div>
 
     </section>
+    <section id="inferno" class="inferno">
+        <div class="container" width="95vw">
+            <div class="row">
+                <div class="col-lg-12 wow fadeInUp">
+                    <h1>Safety</h1>
+                   <br><br>
+                    <p>To guarantee 100% Safety We choose to hide the Total Experience achieved aswell as Total Time Played. <br>
+                        We can assure you these accounts are safe.<br>
+                        They have no blackmarks and have never been botted on.<br>
+                        Every account comes with a free 20M in the bank, to give you a good start.<br>
+                        Ask our <button onclick="openLiveChat('Can you tell me about the 4 weeks warranty?')" class="btn btn--infernosmall">Live Chat</button> about the 4 weeks warranty we offer on all account purchases!
+                        
+
+                        <br><br>
+                        We deliver the account information within 5 minutes after approved purchase.
+                        </p>
+
+                        <br><br>
+                        <h1>Payment</h1> 
+                        <br><br>
+                        <p>All quoted prices are in USD,
+                            It's possible to pay in different currencies.
+                            Ask our Live chat to convert the amount to a currency that suits you.
+                            If you'd like to use OSRS GP as Payment option,
+                            the price may vary due to OSRS GP constantly fluctuating.
+                            </p>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
     <section class="inferno" id="Pures">
         <div class="container" width="95vw">
             <div class="row">
                 <div class="col-lg-12 wow fadeInUp">
                     <h1>Pures</h1>
                     <br><br>
-
+                    
+                    <center>
+                        <h3> Pure #1 </h3>
+                        <br>
+                        <img src="src/img/assets/acc_pure_1.PNG" alt="img" style="max-width: 100%; height: auto;" >  
+                        <br><br>
+                        <h3 style="color: rgb(122, 0, 0)"> $149 USD</h3>                
+                        <button onclick="openLiveChat('I am interested in buying Pure #1')" class="btn btn--infernosmall">Buy / Contact Livechat</button>
+                    </center>
                     <br><br><br>
     </section>
 
@@ -275,8 +321,8 @@
     function openLiveChat(id_text) {
         zE('webWidget', 'open');
         zE('webWidget', 'chat:send',
-            "INFERNAL: Hi, I'm interested in buying an account. I was curious if you could tell me more about " +
-            $id_text
+            "INFERNAL: Hi, " +
+            id_text
         );
     }
 

@@ -1048,7 +1048,7 @@ h2 {
     background-color: black;
     font-size: 0.8em;
     font-weight: bold;
-    margin-top: 50px;
+    margin-top: 20px;
     background-size: cover;
     color: #fff;
 }
@@ -1328,7 +1328,7 @@ section:nth-child(even) {
 }
 }section h1 {
     color: #111;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #db5c12;
     -webkit-background-clip: text;
     background-color: #db5c12;
     background-attachment: fixed;
@@ -1378,7 +1378,7 @@ section#inferno p span {
     font-weight: 700!important;
 }
 section#inferno .btn {
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 section#inferno form {
     font-family: Nunito, sans-serif;
