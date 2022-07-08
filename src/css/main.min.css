@@ -1142,6 +1142,9 @@ header {
 #ext_btn {
     display: none;
 }
+#int_btn {
+    display: block;
+}
 a#zerk:hover{
     color: red;
 }
@@ -1163,6 +1166,9 @@ a#zerk:hover{
 
 #ext_btn{
     display:block;
+}
+#int_btn {
+    display: none;
 }
 
 #vid {
